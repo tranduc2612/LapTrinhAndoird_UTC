@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="130dp"
+    tools:layout_editor_absoluteY="157dp">
+
+    <TextView
+        android:id="@+id/tvHoTen"
+        android:layout_width="221dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSDT"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHoTen" />
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="38dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="11dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/tvHoTen"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
